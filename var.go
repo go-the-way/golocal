@@ -1,7 +1,7 @@
 package golocal
 
 var (
-	defContext = newDefaultContext[string]()
+	defContext = NewDefaultContext[string]()
 
 	Set = defContext.Set
 	Get = defContext.Get
